@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.main {
+
+    height: 768px;
+    position: relative;
+}
+
+.block {
+    border: 5px solid black;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 129px);
+    grid-template-rows: repeat(4, 129px);
+    background-color: darkgray;
+    box-shadow: 5px 0 10px black;
+}
+
+.block > div {
+    width: 129px;
+    height: 129px;
+    background: linear-gradient(to right, #c5a4e0, #653980);
+    border-radius: 7px;
+    border: 1px solid #513c5e;
+    text-align: center;
+    line-height: 129px;
+    font-size: 50px;
+
+}
